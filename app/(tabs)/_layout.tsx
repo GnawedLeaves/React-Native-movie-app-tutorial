@@ -24,7 +24,7 @@ const TabIcon = ({ title, icon, focused }: TabIconProps) => {
     );
   } else {
     return (
-      <View className="size-full justify-center items-center mt-4 rounded-full">
+      <View className=" min-w-[100px] min-h-16 size-full justify-center items-center mt-4 rounded-full ">
         <Image source={icon} tintColor={"#a8b5db"} />
       </View>
     );
